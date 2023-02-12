@@ -208,7 +208,7 @@ warning이 발생한 이유는, 오브젝트를 처음부터 apply로 생성한 
 
 > 각 파드의 내용값을 선택적으로 보려면 custom-columns 옵션을 이용할 수 있다.
 >
-> `kubectl get pods -o=custom-columns=NAME:.metadata.name,IP:.status.podID, STATUS:.status.phase, NODE:.spec.nodeName`
+> `kubectl get pods -o=custom-columns=NAME:.metadata.name,IP:.status.podID,STATUS:.status.phase,NODE:.spec.nodeName`
 >
 > ![image-20230204210403579](/Users/user/Library/Application Support/typora-user-images/image-20230204210403579.png)
 
